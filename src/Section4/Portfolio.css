@@ -1,0 +1,33 @@
+/* Section Four */
+.section4por {
+    max-width: 1920px;
+    min-height: 321px;
+    background-image: url("../assets/imagePORTFOLIO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section4por div {
+    max-width: 482px;
+    min-height: 74px;
+    border: 8px solid #000000;
+    padding: 10px 35px 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section4por div p {
+    max-width: 482px;
+    min-height: 74px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38.37px;
+    letter-spacing: 0.4354em;
+    margin-top: 10px;
+    text-align: center;
+  }

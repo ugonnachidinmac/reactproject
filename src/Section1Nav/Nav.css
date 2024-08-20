@@ -1,0 +1,271 @@
+/* section 1 */
+.section1 {
+    max-width: 1920px;
+    min-height: 1022px;
+    background-color: #d7d7d7;
+    background-image: url("../assets/Rectangle 67.png");
+    background-repeat: no-repeat;
+    background-size: 60vw 100%;
+    background-position: bottom right;
+    padding-top: 72px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  
+  /* nav section */
+  .section1 nav {
+    width: 100%;
+    margin-bottom: 34px;
+  }
+  .section1 ol {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 8px;
+  }
+  
+  .section1 .links {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-start; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  
+  .section1 .links a {
+    max-width: 147px;
+    min-height: 46px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.28px;
+    text-align: center;
+    color: white;
+    min-width: 8vw;
+    text-decoration: none;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+  }
+  
+  .section1 .links .contact {
+    background-color: white;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.72px;
+    text-align: center;
+    border: 4px solid #ffffff;
+    border-radius: 30px;
+  }
+  
+  .section1 .menu {
+    display: none;
+  }
+  .section1 .logo .mobileLogo {
+    display: none;
+  }
+  
+  /* css handburger menu css */
+  .dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    left: 0px;
+    top: 70px;
+    background-color: #00000066;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 7.3px 0px;
+    text-decoration: none;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    text-align: center;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+  }
+  /* ENDS */
+
+  /* Hero Part */
+  
+.heroImage {
+    position: relative;
+    display: inline-block; /* This ensures the text stays within the boundaries of the image */
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .text-on-image {
+    position: absolute;
+    top: 800px; /* Adjust to position the text vertically */
+    right: 330px; /* Adjust to position the text horizontally */
+    color: black; /* Adjust the text color as needed */
+    padding: 5px; /* Optional: Adds some padding around the text */
+    font-size: 16px; /* Adjust the font size as needed */
+    max-width: 136px;
+    min-height: 60px;
+  }
+  
+  
+  
+  
+  /* Hero css */
+  .hero {
+    display: flex;
+    gap: 150px;
+  }
+  .hero .BioDataLeftBox h2 {
+    max-width: 171px;
+    min-height: 58px;
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46.96px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 40px;
+  }
+  
+  .hero .BioDataLeftBox h3 {
+    max-width: 532px;
+    /* height: 105px; */
+    font-family: "Raleway", sans-serif;
+    font-size: 40.5px;
+    font-weight: 700;
+    line-height: 93.92px;
+    text-align: center;
+    /* margin-bottom: 15px; */
+  }
+  .BioDataRightBox img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+  }
+  
+  .photoDiscription {
+    position: absolute;
+    z-index: 3;
+  }
+  /* .hero .BioDataRightBox{
+    padding-left: 80px;
+  } */
+  
+  .BioDataLeftBox p {
+    max-width: 426px;
+    min-height: 40px;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 29.35px;
+    text-align: center;
+  }
+  
+  .heroIcons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 120px;
+    div {
+      background-color: #c4c4c4;
+      max-width: 61px;
+      min-height: 56px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      img {
+        max-width: 34px;
+        min-height: 34px;
+        display: flex;
+        margin: 10px;
+      }
+    }
+  }
+  
+  .heroMobile {
+    display: none;
+    /* max-width: 350px;
+    min-height: 159px; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    /* cor */
+  }
+  
+  .whiteSeparator {
+    max-width: 100px;
+    margin: 20px 0;
+  }
+  
+  .heroMobile span {
+    font-family: "Advent Pro", sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 29.9px;
+  }
+  .heroMobile p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    line-height: 1.8em;
+    margin: 10px 0;
+  }
+  .whiteIconns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .whiteIconns img {
+    max-width: 25px;
+    min-height: 25px;
+  }
+

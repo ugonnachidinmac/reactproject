@@ -1,0 +1,89 @@
+/* section2 */
+.section2 {
+    background: linear-gradient(
+      90.18deg,
+      #1d1d1d 31.74%,
+      #1d1d1d 90.49%,
+      #1d1d1d 90.49%
+    );
+    max-width: 1920px;
+    min-height: 250px;
+    position: relative;
+    z-index: 2;
+    color: white;
+  
+    .itContent {
+      max-width: 1920px;
+      min-height: 300px;
+      background: #1d1d1d url(../assets/backgroundImage.png) no-repeat right /
+        388.05px 368.16px;
+      background-repeat: no-repeat;
+      background-position: 105% 0%;
+      background-size: 35%;
+      padding: 25px 0 5px 50px;
+    }
+  
+    h1 {
+      max-width: 363px;
+      height: 45px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36.57px;
+      letter-spacing: 0.1854em;
+      text-align: left;
+      margin-bottom: 15px;
+      color: white;
+    }
+  
+    p {
+      max-width: 900px;
+      min-height: 89px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20.8px;
+      text-align: justified;
+      margin-bottom: 45px;
+    }
+  
+    .readMorebtn {
+      max-width: 150px;
+      background: none;
+      border: none;
+      color: inherit;
+      font: inherit;
+      cursor: pointer;
+      padding: 0;
+      outline: none;
+      a {
+        max-width: 139px;
+        height: 25px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 18.29px;
+        margin-top: 5px;
+        padding: 5px 20px;
+        color: white;
+        text-decoration: none;
+        background: none;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+      }
+    }
+  }
+  
+  .BioData {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  
+  .BioDataRightBox img {
+    max-width: 783px;
+    height: 877px;
+  }
+
+
+  

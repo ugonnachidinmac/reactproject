@@ -1,0 +1,62 @@
+/* section Five */
+.section5 {
+    /* max-width: 1920px; */
+    width: 100%;
+    min-height: 74px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Prevent both horizontal and vertical overflow */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+    overflow-y: hidden; 
+  }
+  .section5 div {
+    max-width: 500px;
+    min-height: 48px;
+    border-bottom: 1px solid white;
+    display: flex;
+    gap: 10px; /* Add spacing between links */
+    /* white-space: nowrap; */
+  }
+  .section5 div a {
+    width: 100%;
+    min-height: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.07px;
+    text-align: center;
+    color: white;
+    margin-right: 65px;
+    padding-top: 18px;
+    padding-left: 40px;
+    text-decoration: none;
+  }
+
+  @media (max-width: 400px) {
+    .section5 div {
+      flex-wrap: wrap;
+      text-align: center;
+    }
+  
+    .section5 div {
+      border-bottom: unset;
+    }
+    
+    .section5 a:nth-child(1), /* ALL */
+    .section5 a:nth-child(2) { /* CODED */
+      flex: 1;
+      text-align: center;
+    }
+  
+    .section5 a:nth-child(3) { /* DESIGNED */
+      /* width: 100%; */
+      max-width: 158px;
+      border-bottom: 1px solid #AAAAAA;
+      margin-left: 100px;
+      text-align: center;
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+  }

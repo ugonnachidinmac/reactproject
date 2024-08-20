@@ -1,0 +1,100 @@
+.section8 .contactContainer {
+    max-width: 1920px;
+    min-height: 1178px;
+    background: linear-gradient(0deg, #ffffff, #ffffff),
+      radial-gradient(
+        50% 50% at 50% 50%,
+        rgba(26, 21, 21, 0) 0%,
+        rgba(0, 0, 0, 0.16) 100%
+      );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  
+  .contactContainer div {
+    max-width: 367px;
+    min-height: 107px;
+    border: 8px solid #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38.37px;
+    letter-spacing: 0.3554em;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    padding: 25px 50px 0 50px;
+  }
+  .contactContainer p {
+    max-width: 763px;
+    min-height: 72px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  form {
+    margin-top: 75px;
+  }
+  fieldset {
+    border: none; /* Remove the border from the fieldset */
+    padding: 0;
+    margin: 0;
+  }
+  input[type="text"],
+  textarea {
+    width: 500px; /* Adjust the width to fit within the form */
+    padding: 10px;
+    margin: 20px 0;
+    border: none; /* Remove all borders */
+    border-left: 4px solid black; /* Add left border */
+    border-bottom: 4px solid black; /* Add bottom border */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    display: block;
+    /* margin: auto; */
+  }
+  
+  textarea {
+    height: 250px;
+    resize: none; /* Prevent resizing */
+    margin-bottom: 0px;
+  }
+  
+  form .button {
+    border: none;
+  }
+  /* form div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+  .buttonForm {
+    max-width: 150px;
+    padding: 10px;
+    padding-left: 25px;
+    color: black;
+    background: none;
+    border: none;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }

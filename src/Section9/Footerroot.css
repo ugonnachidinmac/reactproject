@@ -1,0 +1,43 @@
+.section9 {
+    max-width: 1920px;
+    min-height: 326px;
+    background: #1a1a1a;
+    text-align: center;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer p:nth-child(2) {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.29px;
+    letter-spacing: 0.1854em;
+    text-align: center;
+    margin: 5px 0px 40px 0px;
+  }
+  .footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .socialMediaIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .footer p:nth-child(4) {
+    max-width: 450px;
+    min-height: 22px;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    color: white;
+  }
+  

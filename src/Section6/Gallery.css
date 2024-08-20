@@ -1,0 +1,104 @@
+/* Section Six */
+.section6 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    box-sizing: border-box;
+    overflow: hidden; /* Prevent container overflow */
+  }
+  
+  .galleyContainer {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* Maintain 16:9 aspect ratio */
+    overflow: hidden;
+  }
+  
+  .galleyContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cover the container without distortion */
+    display: block; /* Remove extra space below images */
+    box-sizing: border-box;
+  }
+  
+  .gallaries.eatsome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; /* Ensure the div appears above the images */
+    padding: 20px; /* Add some padding */
+    box-sizing: border-box;
+  }
+  
+  .demoMore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .demoMore span {
+    max-width: 114px;
+    min-height: 27px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.63px;
+    letter-spacing: 0.095em;
+    text-align: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 6px 40px;
+  }
+  
+  .eatsome p:nth-child(1),
+  .eatsome p:nth-child(2),
+  .eatsome p:nth-child(3) {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .eatsome p:nth-child(1) {
+    max-width: 134px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 12.19px;
+    letter-spacing: 0.095em;
+    padding-top: 30px;
+  }
+  
+  .eatsome p:nth-child(2) {
+    max-width: 482px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 31.97px;
+    letter-spacing: 0.2054em;
+  }
+  
+  .eatsome p:nth-child(3) {
+    max-width: 315px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12.19px;
+    letter-spacing: -0.015em;
+    margin-bottom: 20px;
+  }
+  

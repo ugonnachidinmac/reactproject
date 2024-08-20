@@ -1,0 +1,255 @@
+/* section3 styling  */
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section3 .aboutMe {
+    max-width: 404px;
+    height: 107px;
+    border: 8px solid #000000;
+    font-family: "Montserrat", sans-serif;
+    z-index: 4;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 98.37px;
+    letter-spacing: 0.3554em;
+    text-align: center;
+    margin: auto;
+    margin-top: 140px;
+  }
+  
+  .aboutMe a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .section3Div > p:nth-of-type(1) {
+    max-width: 763px;
+    height: 47px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  .section3Div > button:nth-of-type(1) {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    padding: 0;
+    outline: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 60px;
+    a {
+      max-width: 139px;
+      height: 25px;
+      font-family: "Montserrat", sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 18.29px;
+      margin-top: 25px;
+      padding: 5px 20px;
+      color: black;
+      text-decoration: none;
+      background: none;
+      border-left: 2px solid black;
+      border-right: 2px solid black;
+    }
+  }
+  
+  .section3Div > img:nth-of-type(1) {
+    max-width: 170px;
+    height: 12px;
+    display: block;
+    margin: 40px auto;
+  }
+  
+  .container1 {
+    max-width: 1200px;
+    min-height: 150px;
+    margin: auto;
+    margin-top: 45px;
+  }
+  
+  .rowInlineblock {
+    display: inline-block;
+    max-width: 487px;
+    min-height: 120px;
+    margin-right: 45px;
+  }
+  .bkimgContainer {
+    max-width: 277px;
+    min-height: 65px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26.82px;
+    letter-spacing: 0.1854em;
+  }
+  
+  .designbkimg {
+    background-image: url('../assets/desimgbak.png');
+    background-repeat: no-repeat;
+  }
+  
+  .devbkimg {
+    background-image: url('../assets/maintenancebackimg.png');
+    background-repeat: no-repeat;
+  }
+  
+  .mainbkimg {
+    background-image: url('../assets/devbckimg.png');
+    background-repeat: no-repeat;
+  }
+  .row2Content {
+    max-width: 487px;
+    min-height: 182px;
+    margin: auto;
+  }
+  
+  .rowInlineblock p {
+    max-width: 500px;
+    min-height: 104px;
+    padding-left: 55px;
+  }
+  
+  .rowInlineblock h3 {
+    padding-top: 25px;
+    padding-left: 55px;
+  }
+  
+  .row2Content p {
+    max-width: 500px;
+    min-height: 104px;
+    padding-left: 55px;
+  }
+  .row2Content h3 {
+    padding-top: 25px;
+    padding-left: 55px;
+  }
+  
+  .separator {
+    max-width: 170px;
+    height: 12px;
+    margin: auto;
+    margin-bottom: 95px;
+  }
+  
+  .section3 .skills {
+    max-width: 404px;
+    width: 100%;
+    min-height: 107px;
+    margin: auto;
+    border: 8px solid #000000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.875em;
+    font-weight: 700;
+    line-height: 38.37px;
+    letter-spacing: 0.3554em;
+    text-align: center;
+    margin-bottom: 95px;
+    padding: 30px 70px 10px 70px;  
+  }
+  
+/*   
+  .skills h2 {
+    max-width: 404px;
+    min-height: 74px;
+  }  */
+  
+  .iconContainer {
+    max-width: 948.72px;
+    width: 100%;
+    padding: 20px; /* Added padding for better spacing */
+    padding-left: 150px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  
+  .usingNowContainer,
+  .learningContainer,
+  .otherSkillsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 90px;
+  }
+  
+  .iconContainer h3 {
+    max-width: 350px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.875em;
+    font-weight: 700;
+    letter-spacing: 0.1854em;
+    margin-bottom: 60px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  
+  .usingIcon1,
+  .learningIcon1,
+  .othersIcon1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .iconContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .iconContent img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .iconContent p {
+    max-width: 240px;
+    min-height: 52px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.1354em;
+    margin-top: 40px;
+    margin-bottom: 95px;
+  }
+  
+  .html5 {
+    max-width: 84.21px;
+    min-height: 100px;
+  }
+  .css3 {
+    max-width: 84.14px;
+    min-height: 100px;
+  }
+  .sass {
+    max-width: 126.62px;
+    min-height: 99.93px;
+  }
+  .javascriptBoostGit {
+    max-width: 96.24px;
+    min-height: 100px;
+  }
+  .react {
+    max-width: 93.96px;
+    min-height: 87.41px;
+  }
+  .figma {
+    max-width: 69.49px;
+    min-height: 100px;
+  }
+  
+  
