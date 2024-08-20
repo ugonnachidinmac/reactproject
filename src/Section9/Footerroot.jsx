@@ -15,9 +15,9 @@ const Footerroot = () => {
    {/* <!-- section Nine --> */}
       <section class="section9">
         <div class="footer">
-            <img src={imagearrowdown} alt="" />
+            <img className="footerArrowImg" src={imagearrowdown} alt="" />
             <p><a href="#top">BACK TO TOP</a></p>
-            <div class="socialMediaIcons">
+            <div className="socialMediaIcons">
                 <img src={imageface} alt="facebook icon" />
                 <img src={imagelink} alt="linkedin icon" />
                 <img src={imagetwi} alt="twitter icon" />

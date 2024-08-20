@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
@@ -53,7 +53,7 @@
     flex-direction: column;
     align-items: center;
     background: none;
-    background: #1d1d1d url('./assets/mobileBackgroundit.png') no-repeat center /
+    background: #1d1d1d url("./assets/mobileBackgroundit.png") no-repeat center /
       388.05px 368.16px;
     background-repeat: no-repeat;
     background-position: 50% 40%;
@@ -75,7 +75,7 @@
   }
   .section3 {
     margin: auto;
-    margin-top: 140px;
+    margin-top: 10px;
   }
   .iconContainer {
     padding-left: unset;
@@ -200,5 +200,23 @@
     width: 140px;
     display: flex;
   }
+}
+
+@media (max-width: 360px) {
+  * {
+    width: 100%;
+  }
+  .mobileLogo {
+    max-width: 55px;
+    min-height: 35px;
+  }
   
+  .section1 .menu {
+    display: flex;
+  }
+  menu .dropbtn img{
+    max-width: 10px; /* Limit the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    display: inline-block; /* Use inline-block instead of flex for images */
+  }  
 }
