@@ -3,7 +3,7 @@ import backgroundImage from '../assets/backgroundImage.png';
 import mobileBackground from '../assets/mobileBackground.png';
 import mobileBackgroundit from '../assets/mobileBackgroundit.png';
 
-import '../Section2/itContent.css'
+import '../Section2/ItContent.css'
 const ItContent = () => {
   return (
     <>
