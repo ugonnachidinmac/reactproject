@@ -9,7 +9,7 @@ const Portfolio = () => {
    <>
    {/* <!-- section four --> */}
            
-           <section class="section4por">
+           <section className="section4por">
               <div>
                <p>PORTFOLIO</p>  
              </div>

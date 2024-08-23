@@ -13,8 +13,8 @@ const Footerroot = () => {
   return (
    <>
    {/* <!-- section Nine --> */}
-      <section class="section9">
-        <div class="footer">
+      <section className="section9">
+        <div className="footer">
             <img className="footerArrowImg" src={imagearrowdown} alt="" />
             <p><a href="#top">BACK TO TOP</a></p>
             <div className="socialMediaIcons">

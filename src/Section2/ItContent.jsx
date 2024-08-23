@@ -7,8 +7,8 @@ import '../Section2/itContent.css'
 const ItContent = () => {
   return (
     <>
-    <section class="section2">
-        <div class="itContent">
+    <section className="section2">
+        <div className="itContent">
           <h1>IT BERRIES</h1>
           
           <p>
@@ -22,7 +22,7 @@ const ItContent = () => {
             tempor, accumsan nec eros.
           </p>
           
-          <button class="readMorebtn"><a href="#">READ MORE</a></button>
+          <button className="readMorebtn"><a href="#">READ MORE</a></button>
         </div>
       </section> 
     </>

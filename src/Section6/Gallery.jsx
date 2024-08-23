@@ -16,13 +16,13 @@ const Gallery = () => {
     <>
     {/* <!-- Section Six --> */}
 
-<section class="section6">
- <div class="galleyContainer">
+<section className="section6">
+ <div className="galleyContainer">
      <img src={background1} alt="Image 1" />
  </div>
- <div class="galleyContainer">
+ <div className="galleyContainer">
      <img src={background2} alt="Image 2" />
-     <div class="gallaries eatsome">
+     <div className="gallaries eatsome">
          <p>coded, designed</p>
          <p>eatsome.</p>
          <p>Restaurant browsing in React.js (Using Yelp API)</p>
@@ -32,16 +32,16 @@ const Gallery = () => {
          </div>
      </div>
  </div>
- <div class="galleyContainer">
+ <div className="galleyContainer">
      <img src={background3} alt="Image 3" />
  </div>
- <div class="galleyContainer">
+ <div className="galleyContainer">
      <img src={background4} alt="Image 4" />
  </div>
- <div class="galleyContainer">
+ <div className="galleyContainer">
      <img src={background5} alt="Image 5" />
  </div>
- <div class="galleyContainer">
+ <div className="galleyContainer">
      <img src={background6} alt="Image 6" />
  </div>
 </section>

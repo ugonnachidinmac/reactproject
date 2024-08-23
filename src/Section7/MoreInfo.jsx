@@ -6,7 +6,7 @@ const MoreInfo = () => {
   return (
     <>
     {/* <!-- section seven --> */}
-     <section class="section7">
+     <section className="section7">
       <div>
         And many more to come!
       </div>

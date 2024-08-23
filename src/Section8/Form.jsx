@@ -6,9 +6,9 @@ const Form = () => {
   return (
     <>
      {/* <!-- section Eight --> */}
-      <section class="section8">
-        <div class="contactContainer">
-        <div class="contact8">CONTACT</div>
+      <section className="section8">
+        <div className="contactContainer">
+        <div className="contact8">CONTACT</div>
         <p>
           Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius
           finibus. Sed ornare sit amet lorem sed viverra. In vel urna quis libero
@@ -24,7 +24,7 @@ const Form = () => {
           </fieldset>
           <fieldset>
                <textarea name="message" id="message" placeholder="YOUR MESSAGE*"></textarea>
-          <button class="buttonForm">SUBMIT</button>
+          <button className="buttonForm">SUBMIT</button>
           </fieldset>
         </form>  
         </div>                                      
